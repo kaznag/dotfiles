@@ -118,3 +118,8 @@ fi
 if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
+
+# nodebrew
+if [ -e $HOME/.nodebrew/current/bin ]; then
+    export PATH=$HOME/.nodebrew/current/bin:$PATH
+fi
