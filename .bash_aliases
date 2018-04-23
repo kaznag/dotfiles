@@ -10,3 +10,9 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+
+# git aliases
+alias ga='git add'
+alias gau='git add -u'
+alias gst='git status'
+alias gss='git status -s'
