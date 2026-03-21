@@ -2,6 +2,7 @@
     "files.associations": {
         "dot_bash*": "shellscript",
         "dot_profile": "shellscript",
-        "dot_gitconfig": "git"
+        "dot_gitconfig": "git",
+        "dot_vimrc": "viml"
     }
 }
