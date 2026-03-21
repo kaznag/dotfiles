@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "dot_bash*": "shellscript",
+        "dot_profile": "shellscript"
+    }
+}
