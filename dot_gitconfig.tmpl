@@ -4,7 +4,22 @@
 [core]
 	editor = vi
 	autocrlf = input
+	quotePath = false
+[init]
+	defaultBranch = main
 [color]
-	ui = true
+	ui = auto
+[fetch]
+	prune = true
+[push]
+	default = current
+	autoSetupRemote = true
+[diff]
+	algorithm = histogram
+	renames = true
+[status]
+	showUntrackedFiles = all
+[merge]
+	conflictstyle = zdiff3
 [url "https://{{ (bitwardenFields "item" "GitHub").username.value }}:{{ (bitwardenFields "item" "GitHub").token.value }}@github.com"]
 	insteadOf = https://github.com
