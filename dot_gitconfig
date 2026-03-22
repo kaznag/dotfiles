@@ -1,5 +1,0 @@
-[core]
-	editor = vi
-	autocrlf = input
-[color]
-	ui = true
