@@ -24,7 +24,17 @@ alias gcpa='git cherry-pick --abort'
 alias gcpc='git cherry-pick --continue'
 alias gd='git diff'
 alias gf='git fetch'
+alias gl='git pull'
 alias gp='git push'
-alias gst='git status'
+alias gpf='git push --force-with-lease'
+gri() {
+  if [ -z "$1" ]; then
+    echo "usage: gri <num-commits>" >&2
+    return 2
+  fi
+  git rebase -i "HEAD~$1"
+}
+alias gs='git status'
 alias gss='git status -s'
+alias gsu='git submodule update'
 
